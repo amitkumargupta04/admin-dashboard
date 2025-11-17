@@ -1,60 +1,41 @@
-# Role-Based Admin Dashboard (Sample Demo)
+# Role-Based Admin Dashboard
 
 **Version:** 1.1  
-**Prepared by:** Phantasm Solutions Pvt Ltd  
-
-> **Note:** This is a **sample/demo README** with mock data and screenshots for demonstration purposes. All credentials and API calls are simulated.
+**Prepared by:** Amit Kumar Gupta  
 
 ---
 
 ## 🚀 Live Demo
-[Sample Demo on Netlify](https://sample-dashboard-demo.netlify.app)
+https://admin-dashboard-seven-nu-82.vercel.app
 
 ---
 
 ## 📂 Tech Stack
 
-- **Frontend:** React 18+ (Hooks)  
-- **State Management:** Redux Toolkit + RTK Query (Mock APIs)  
-- **Styling:** Tailwind CSS (mobile-first, responsive)  
-- **Routing:** React Router v6  
-- **Internationalization:** i18next (English & Spanish)  
-- **Icons:** React Icons / Lucide-react  
-- **Forms:** React Hook Form (mock validation)  
-- **Notifications:** react-hot-toast (mock success/error)
+- React 18+ (Hooks)  
+- Redux Toolkit + RTK Query  
+- Tailwind CSS  
+- React Router v6  
+- i18next (English & Spanish)  
+- React Icons / Lucide-react  
 
 ---
 
-## 🧩 Features (Sample)
+## 🧩 Features
 
-### Authentication & Role-Based Access
-- Login portal for **Admin** and **User** (mock credentials):
-  - **Admin:** `admin@sample.com / admin123`  
-  - **User:** `user@sample.com / user123`
-- Role-based sidebar links:
-  - Admin: Dashboard, Users, Products, Settings
-  - User: Dashboard, Products (view only)
-- Logout clears mock state.
-
-### Dashboard
-- **Admin:** Sees total users/products & revenue cards.  
-- **User:** Sees only Products stats.  
-
-### CRUD (Mock)
-- Admin can **create/edit/delete** Users & Products.  
-- User can **view products only**.  
-
-### Theming & i18n
-- Toggle **Light/Dark Mode** (saved in localStorage).  
-- English & Spanish translations.
-
-### Responsive Design
-- Sidebar collapses on mobile.  
-- Cards and tables adapt to screen size.
+- Single login portal for Admin & User
+- Role-based access and sidebar navigation
+  - Admin: Full CRUD on Users & Products
+  - User: View-only access to Products
+- Dark/Light theme toggle
+- Internationalization (English & Spanish)
+- Responsive layout (mobile-first)
+- Reusable components: Button, Input, Modal, Table, Card, Loader, Alert
 
 ---
 
-## 🛣️ Routes (Sample)
+## 🛣️ Routes
+
 | Route                  | Admin | User | Description |
 |------------------------|-------|------|-------------|
 | `/login`               | ✅    | ✅   | Login Page |
@@ -67,8 +48,9 @@
 
 ---
 
-## 📝 Setup Instructions (Sample)
-1. Clone repo:
+## 📝 Setup Instructions
+
+1. Clone the repo:  
    ```bash
-   git clone https://github.com/sample-user/admin-dashboard-demo.git
-   cd admin-dashboard-demo
+   git clone https://github.com/amitkumargupta04/admin-dashboard.git
+   cd role-based-admin-dashboard
